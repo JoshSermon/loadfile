@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
 
 function Header() {
     return <header className='flex items-center justify-between'>
@@ -16,6 +17,19 @@ function Header() {
         </div>
     <h1 className='font-bold text-xl'>Loadfile</h1>
     </Link>
+
+
+    <div className="div">
+        {/* Theme toggler */}
+
+        <UserButton afterSignOutUrl='/' />
+
+        <SignedOut>
+            <SignInButton afterSignInUrl='/dashboard"'mode='modal'/>
+        </SignedOut>
+
+         {/* Theme toggler */}
+    </div>
     </header>
 }
 
