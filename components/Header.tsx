@@ -15,11 +15,11 @@ function Header() {
             width={50}
             />
         </div>
-    <h1 className='font-bold text-xl md:txt-xs'>Loadfile</h1>
+    <h1 className='font-bold text-xl'>Loadfile</h1>
     </Link>
 
 
-    <div className="div">
+    <div className="px-5 flex space-x-2 items-center">
         {/* Theme toggler */}
 
         <UserButton afterSignOutUrl='/' />
@@ -36,4 +36,4 @@ function Header() {
 
 export default Header
 
-// Stopped at 36:50
+// Stopped at 48:19
