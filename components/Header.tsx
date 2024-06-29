@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
+import { ThemeToggler } from './ThemeToggler';
 
 function Header() {
     return <header className='flex items-center justify-between'>
@@ -20,7 +21,7 @@ function Header() {
 
 
     <div className="px-5 flex space-x-2 items-center">
-        {/* Theme toggler */}
+        <ThemeToggler />
 
         <UserButton afterSignOutUrl='/' />
 
@@ -36,4 +37,4 @@ function Header() {
 
 export default Header
 
-// Stopped at 48:19
+// Stopped at 52:30
