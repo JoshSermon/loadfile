@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { UserButton } from "@clerk/nextjs";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 
 export default function Home() {
@@ -11,11 +13,26 @@ export default function Home() {
             Welcome to Loadfile. <br />
             Were we store everything you need, so you won't lose anything.
           </h1>
+
           <p className="pb-20">
             Enchance your personal storage with Loadfile, offering a simple and efficient way to upload, organize, and access files from anywhere. 
             Securely store important documents and media, and experience
             the convenience of east file management and sharing in one centralized solution. 
           </p>
+
+          <Link href="/dashboard" className="flex bg-blue-500 p-5 w-fit">
+            Try it for free!
+            <ArrowRight className="ml-8" />
+          </Link>
+        </div>
+
+        <div className="bg-[#1E1919] dark:bg-slate-800 h-full p-10">
+          <video autoPlay loop muted className="rounded-lg">
+            <source
+            src="https:aem.dropbox.com/cms/content/dam/dropbox/warp/en-us/overview/lp-header-graphite200-1920x1080.mp4"
+            type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>      
       
