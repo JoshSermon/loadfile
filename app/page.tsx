@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <main className="">
-      <div>
+      <div className="flex flex-col lg:flex-row items-center bg-[#1E1919] dark:bg-slate-800">
         <div className="p-10 flex flex-col bg-[#2B2929] dark:bg-slate-800 text-white space-y-5">
           <h1 className="text-5xl font-bold">
             Welcome to Loadfile. <br />
