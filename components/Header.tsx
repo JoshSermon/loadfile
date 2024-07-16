@@ -16,7 +16,7 @@ function Header() {
             width={50}
             />
         </div>
-    <h1 className='font-bold text-xl'>Loadfile</h1>
+    <h1 className='font-bold text-sm md:text-lg'>Loadfile</h1>
     </Link>
 
 
