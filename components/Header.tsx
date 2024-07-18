@@ -7,7 +7,7 @@ import { ThemeToggler } from './ThemeToggler';
 function Header() {
     return <header className='flex items-center justify-between'>
     <Link href="/" className='flex items-center space-x-2'>
-        <div className='bg-[#0160FE] w-fit' >
+        <div className='bg-gray-950 w-fit' >
             <Image 
             src="https://www.shareicon.net/data/128x128/2016/05/06/760840_zip_512x512.png" 
             alt="logo"
