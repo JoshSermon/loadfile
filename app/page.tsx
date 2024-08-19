@@ -14,7 +14,7 @@ export default function Home() {
             Were we store everything you need, so you won't lose anything.
           </h1>
 
-          <p className="pb-10">
+          <p className="pb-10">+
             Enchance your personal storage with Loadfile, offering a simple and efficient way to upload, organize, and access files from anywhere. 
             Securely store important documents and media, and experience
             the convenience of east file management and sharing in one centralized solution. 
@@ -31,7 +31,6 @@ export default function Home() {
             <source
             src="https:aem.dropbox.com/cms/content/dam/dropbox/warp/en-us/overview/lp-header-graphite200-1920x1080.mp4"
             type="video/mp4"/>
-            Your browser does not support the video tag.
           </video>
         </div>
       </div>      
