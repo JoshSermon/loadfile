@@ -36,7 +36,7 @@ export default function Home() {
       </div>      
       
       <p className="text-center font-bold text-xl pt-5">Disclaimer</p>
-      <p className="text-center font-light p-2">
+      <p className="text-center font-light p-4">
         Copyright Disclaimer under section 107 of the Copright Act 1976, allowance id made for "file sharing". 
       </p>
 
