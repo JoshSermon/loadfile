@@ -12,8 +12,8 @@ function Header() {
             src="https://www.shareicon.net/data/128x128/2016/05/06/760840_zip_512x512.png" 
             alt="logo"
             className='invert'
-            height={50}
-            width={50}
+            height={35}
+            width={35}
             />
         </div>
     <h1 className='font-bold text-sm md:text-lg'>Loadfile</h1>
