@@ -36,5 +36,3 @@ function Header() {
 }
 
 export default Header
-
-// Stopped at 1:06:45
